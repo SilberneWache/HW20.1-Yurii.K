@@ -1,0 +1,89 @@
+/* Reset and basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  footer {
+    text-align: center;
+  }
+  
+  main {
+    margin-top: 20px;
+  }
+  
+  article {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #0056b3;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  .menu {
+    margin-top: 20px;
+  }
+  
+  .icon-menu {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .icon-menu li {
+    margin: 0 10px;
+  }
+  
+  .icon-button {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+  }
+  
+  .icon-button i {
+    font-size: 24px;
+    margin-right: 5px;
+  }
+  
+  .icon-button:hover {
+    color: #aaa;
+  }
+  
